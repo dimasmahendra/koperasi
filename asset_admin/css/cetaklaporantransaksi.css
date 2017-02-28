@@ -1,0 +1,42 @@
+
+.display .headermutasi th {
+	border: 0.5px solid #000000;
+	background-color: #203864;
+	color: white;
+	padding: 5px 5px;  
+	text-align: center; 
+	size: xx-small;
+	
+}
+.display .tabelmutasi td, th {
+	border: 0.5px solid #000000;    
+	padding: 5px 5px;
+	
+}
+.infoheadermutasi {
+	text-align: left;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  
+}
+
+.panel-body {
+  padding: 25px;   
+}
+
+body {
+  margin: 0; 
+  font-size:14px; 
+}
+
+
+@media screen and (orientation: landscape) {
+  body {
+    position: fixed;
+    width: 2.65em;
+    height: 100%;
+  }
+}

@@ -1,0 +1,121 @@
+.displayTabel th {
+    border: 2px solid #dfe0e0;
+    background-color: #203864;
+    color: white;
+    padding: 5px 15px;   
+    text-align: center; 
+}
+.displayTabel th {
+    border: 2px solid #dfe0e0;    
+    padding: 5px 15px;
+}
+.displayTabel td {
+    border: 2px solid #dfe0e0;    
+    padding: 5px 15px;
+    text-align: center; 
+}
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+    cursor: auto;
+}
+
+.has-feedback .form-control-feedback {
+    top: 25px;
+    right: 0;
+}
+.form-other .has-feedback .form-control-feedback {
+    top: 10;
+    right: 20px;
+}
+.backgroundok{
+	padding-bottom: 4px !important;
+	background: rgba(0,255,0,0.4);
+}
+.backgroundfalse{
+	padding-bottom: 4px !important;
+	background: rgba(255,0,0,0.4);
+}
+.iconok{
+	color: #00a65a;
+}
+.iconfalse{
+	color: #a94442;
+}
+.aauto{
+	color: black !important;
+}
+.aok{
+	color: #00a65a !important;
+}
+.afalse{
+	color: #a94442 !important;
+}
+
+.tab_drawer_heading { display: none; }
+
+@media (max-width: 425px) {
+    #sidebar-collapse {
+      margin-top: 15px;
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+    body {
+    	margin-top:27px;
+    }
+	.nav-pills {
+		display: none;
+	}
+	.tab_drawer_heading {
+		border-top: 1px solid #333;
+		margin: 0;
+		padding: 5px 20px;
+		display: block;
+		cursor: pointer;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}	
+	.d_active a{
+		color: black
+	}
+	.tab_drawer_heading a:hover,.tab_drawer_heading a:focus {
+    color: #ccc !important;
+	}
+	.d_active a:focus, .d_active a:hover  {
+    color: #ccc !important;
+	}
+	#tabelKetKop{
+		margin-left: -20px;
+	}
+	.pull-right button:nth-child(2){
+		margin-left: -10px;
+	}
+	.buttonSmall{
+		font-size: 12px;
+		border-radius: 3px;
+	}
+	table input.form-control {
+		width: auto;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+      margin-left:50px;
+    }
+
+    .nav-pills {
+		display: block;
+	}
+  }
+
+@media (min-width: 1024px) {
+    body {
+      margin-left:0px;
+    }
+  }  

@@ -1,0 +1,72 @@
+@media
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+
+    body{
+      margin-top: 27px;
+    }
+  
+  /* Force table to not be like tables anymore */
+  #tabelKetua table, 
+  #tabelKetua thead, 
+  #tabelKetua tbody, 
+  #tabelKetua th, 
+  #tabelKetua td, 
+  #tabelKetua tr { 
+    display: block; 
+  }
+ 
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #tabelKetua thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+ 
+  #tabelKetua tr { border: 1px solid #ccc; }
+ 
+  #tabelKetua td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 30%; 
+    white-space: normal;
+    text-align:left;
+  }
+ 
+  #tabelKetua td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    text-align:left;
+    font-weight: bold;
+  }
+ 
+  /*
+  Label the data
+  */
+    #tabelKetua td:before { content: attr(data-title); }
+    #tabelKetua td:nth-of-type(1):before { content: "No"; text-align: left;}
+    #tabelKetua td:nth-of-type(2):before { content: "Nama Anggota"; text-align: left;}
+    #tabelKetua td:nth-of-type(3):before { content: "Tagihan"; text-align: left;}
+    #tabelKetua td:nth-of-type(4):before { content: "Detail"; text-align: left;}
+    #tabelKetua td:nth-of-type(5):before { content: "Total"; text-align: left;}
+    #tabelKetua td:nth-child(1) { text-align: right;}
+    #tabelKetua td:nth-child(2) { text-align: right;}
+    #tabelKetua td:nth-child(3) { text-align: right;}
+    #tabelKetua td:nth-child(4) { text-align: right;}
+    #tabelKetua td:nth-child(5) { text-align: right;}
+    #tabelKetua td:nth-child(6) { text-align: right;}
+
+}
+
+ .close {
+    color: #fff; 
+    opacity: 1;
+}

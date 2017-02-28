@@ -1,0 +1,114 @@
+#tgl_now{
+	text-align: right;
+  padding-bottom: -10px;
+  padding-top: -20px;
+}
+.kepala {	
+	text-align: center;
+    padding: 3px 3px;
+    width: 100%;
+}
+#isi{
+	border: 3px solid #000000;
+}
+#jdul_form{
+	border: 0.5px solid #000000;
+	background-color: #203864;
+	color: white;
+	padding: 5px 5px;  
+	text-align: left; 
+	size: xx-small;
+}
+
+body {
+  margin: 0; 
+  font-size:14px;
+}
+
+.panel-body {
+  	padding: 25px; 
+  	page-break-after:always;
+	position: relative;  
+}
+.pagenum:before { content: counter(page); }
+
+i{
+	font-size: 10px;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.border_td td{
+  border: 0px solid #000000;
+  padding: 3px 3px;
+}
+
+/*span{
+    border-bottom: 1px dotted;
+}*/
+
+#table1, #table2, #table3{
+	margin-left: 15px;
+}
+
+#tabelKetKop th, #tabelSekret th, #tabelBndahra th,
+#tabelPgwas th, #tabelMnager th, #tabelIndikatorKelembagaan th,
+#tabelIndikatorUsaha th{
+	border: 0.5px solid #000000;
+	padding: 5px 5px;
+	text-align: center; 
+	size: xx-small;
+}
+#tabelKetKop td, #tabelSekret td, #tabelBndahra td,
+#tabelPgwas td, #tabelMnager td, #tabelIndikatorKelembagaan td,
+#tabelIndikatorUsaha td{
+	border: 0.5px solid #000000;
+	text-align: left;
+	padding: 5px 5px;
+}
+#c{
+	padding-top: 50px;
+}
+
+#bendahara{
+	padding-top: 70px;
+}
+
+#ik{
+	padding-top: 90px;
+}
+
+#mengetahui td{
+	padding: 15px 5px;
+}
+.left{
+	text-align: left !important;
+}
+.right{
+	text-align: right !important;
+}
+.capitalize{
+    text-transform: capitalize !important;
+}
+.page_bottom{
+	margin-left:1000px;
+	margin-top: 17px;
+}
+#page2{
+	margin-top: 37px;
+}
+#page3{
+	margin-top: 77px;
+}
+#page4{
+	margin-top: 87px;
+}
+@media screen and (orientation: landscape) {
+  body {
+    position: fixed;
+    width: 2.65em;
+    height: 100%;
+  }
+}
